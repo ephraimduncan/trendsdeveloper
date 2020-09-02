@@ -16,4 +16,6 @@
 
 ---
 
-News and Trends Every 19:00 GMT.
+---
+
+News and Trends Every 19:00 UTC.
