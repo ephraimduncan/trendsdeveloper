@@ -28,13 +28,13 @@ const _producthunt = async () => {
   });
 };
 
-const _dev = async () => {
-  const devRes = await axios.get('https://dev.to/api/articles?page=1');
-  devRes.data.length = 10;
-  return devRes.data.map((post) => {
-    return `- [${post.title}](${post.url}) by @${post.user.username}`;
-  });
-};
+// const _dev = async () => {
+//   const devRes = await axios.get('https://dev.to/api/articles?page=1');
+//   devRes.data.length = 10;
+//   return devRes.data.map((post) => {
+//     return `- [${post.title}](${post.url}) by @${post.user.username}`;
+//   });
+// };
 
 const _designer = async () => {
   const designerRes = await axios.get(
@@ -52,10 +52,10 @@ const fillTemplates = async () => {
   let github = template.replace(/%GITHUB%/gim, $github.join('\n'));
   writeFileSync('./template.md', github, 'utf-8');
 
-  template = readFileSync('./template.md', 'utf-8');
-  const $dev = await _dev();
-  let dev = template.replace(/%DEV%/gim, $dev.join('\n'));
-  writeFileSync('./template.md', dev, 'utf-8');
+  // template = readFileSync('./template.md', 'utf-8');
+  // const $dev = await _dev();
+  // let dev = template.replace(/%DEV%/gim, $dev.join('\n'));
+  // writeFileSync('./template.md', dev, 'utf-8');
 
   template = readFileSync('./template.md', 'utf-8');
   const $hn = await _hn();

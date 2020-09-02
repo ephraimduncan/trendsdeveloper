@@ -1,14 +1,10 @@
-## DEV Community Trending
-
-%DEV%
-
 ## Hacker News Trending
 
 %HN%
 
 ## Github Trending Repos
 
-%GITHUB
+%GITHUB%
 
 ## Product Hunt Trending
 
