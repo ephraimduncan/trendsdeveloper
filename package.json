@@ -1,0 +1,10 @@
+{
+  "name": "dailydeveloper",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Ephraim Atta-Duncan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
