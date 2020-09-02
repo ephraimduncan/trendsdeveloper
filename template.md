@@ -13,3 +13,7 @@
 ## Designer News Trending
 
 %DES%
+
+---
+
+News and Trends Every 19:00 GMT.
