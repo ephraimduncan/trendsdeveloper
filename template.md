@@ -16,6 +16,5 @@
 
 ---
 
----
 
 News and Trends Every 19:00 UTC.
