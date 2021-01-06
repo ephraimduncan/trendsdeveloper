@@ -5,6 +5,6 @@
   "author": "Ephraim Atta-Duncan",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.21.1"
   }
 }
